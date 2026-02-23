@@ -81,6 +81,16 @@ The **Next** and **Previous** buttons enable seamless navigation between tracks 
 
 ---
 
+## ⚠️ Important Note
+
+To avoid potential copyright issues, audio files have not been uploaded to this public GitHub repository.
+
+All visual assets used in this project are AI-generated and were created using custom prompts.
+
+For a complete demonstration of the application's functionality, please refer to the explanatory video shared on my LinkedIn profile.
+
+---
+
 ## 🎯 Internship Task Information
 
 This project was completed as Task 3 of my Frontend Developer Internship at CodeAlpha.
