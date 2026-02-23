@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top, #16213a, #0b0f25);
+  color: #cfffff;
+}
+
+.like {
+  cursor: pointer;
+  font-size: 45px;   
+  margin: 15px 0;
+  transition: 0.3s;
+}
+
+.like:hover {
+  text-shadow: 0 0 10px #ff7ad9;
+}
+
+.vol-icon {
+  font-size: 24px;   
+  margin-right: 10px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 48px;
+  color: #00eaff;
+  text-shadow: 0 0 20px #00eaff;
+}
+
+.search-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.search-row input {
+  width: 50%;
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: 1px solid #00eaff;
+  background: transparent;
+  color: white;
+  outline: none;
+  box-shadow: 0 0 12px #00eaff44;
+}
+
+.pill {
+  border: 1px solid #00eaff;
+  padding: 10px 18px;
+  border-radius: 25px;
+  background: transparent;
+  color: #7ffcff;
+  cursor: pointer;
+}
+
+.pill.liked {
+  border-color: #ff7ad9;
+  color: #ff7ad9;
+}
+
+.section-title {
+  margin: 40px;
+  font-size: 34px;
+  text-shadow: 0 0 12px #00eaff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
+.card {
+  background: #101a33;
+  border-radius: 18px;
+  padding: 14px;
+  box-shadow: 0 0 18px #00eaff55;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #00eaff;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.card h3 {
+  margin: 12px 0 4px;
+  color: #00f7ff;
+}
+
+.card p {
+  opacity: .7;
+  margin: 0;
+}
+
+/* PLAYER */
+
+.player-wrap {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.player-cover {
+  width: 420px;
+  border-radius: 24px;
+  box-shadow: 0 0 30px #00eaff;
+}
+
+.player-title {
+  font-size: 42px;
+  color: #00f7ff;
+  text-shadow: 0 0 14px #00f7ff;
+}
+
+.player-artist {
+  opacity: .8;
+}
+
+.progress-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 60%;
+  margin: auto;
+}
+
+#progress {
+  flex: 1;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  margin-top: 20px;
+}
+
+.controls button {
+  background: transparent;
+  border: 1px solid #00eaff;
+  color: #00eaff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.play-big {
+  width: 90px !important;
+  height: 90px !important;
+  font-size: 30px;
+  background: #00eaff;
+  color: black;
+  box-shadow: 0 0 24px #00eaff;
+}
+
+.volume {
+  margin-top: 18px;
+}
+
+.top {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  gap: 40px;                
+  padding: 30px 0;
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Now Playing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="player-wrap">
+
+  <img id="cover" class="player-cover">
+
+  <h1 id="title" class="player-title"></h1>
+  <p id="artist" class="player-artist"></p>
+
+  <div class="like" id="likeBtn">♡</div>
+
+  <div class="progress-row">
+    <span id="cur">0:00</span>
+    <input type="range" id="progress" value="0">
+    <span id="dur">0:00</span>
+  </div>
+
+  <div class="controls">
+    <button>⤮</button>
+    <button id="prev">⏮</button>
+    <button id="play" class="play-big">▶</button>
+    <button id="next">⏭</button>
+    <button>⟳</button>
+  </div>
+
+  <div class="volume">
+  <span class="vol-icon">🔊</span>
+  <input type="range" id="vol" min="0" max="100" value="70">
+  <span id="voltxt">70%</span>
+</div>
+
+</div>
+
+<audio id="audio"></audio>
+
+<script src="player.js"></script>
+</body>
+</html>
